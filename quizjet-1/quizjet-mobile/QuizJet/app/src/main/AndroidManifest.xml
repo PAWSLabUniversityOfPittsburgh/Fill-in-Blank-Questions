@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="edu.pitt.pawslab.quizjet" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/CustomActionBarTheme"
+        android:screenOrientation="landscape"
+        >
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TopicSelectActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_topic_select"
+            android:parentActivityName=".MainActivity" >
+        </activity>
+        <activity
+            android:name=".ProgressActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_progress"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="edu.pitt.pawslab.quizjet.MainActivity" />
+        </activity>
+        <activity
+            android:name=".QuestionListActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_question_list"
+            android:parentActivityName=".TopicSelectActivity" >
+        </activity>
+        <activity
+            android:name=".QuestionDetailActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/title_activity_question_detail"
+            android:parentActivityName=".QuestionListActivity" >
+        </activity>
+        <service android:name=".edu.pitt.pawslab.quizjet.msg.ConnectService" >
+        </service>
+        <activity
+            android:name=".LoginActivity"
+            android:screenOrientation="landscape"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:screenOrientation="landscape"
+            android:name=".RegisterActivity"
+            android:label="@string/title_activity_register" >
+        </activity>
+    </application>
+
+</manifest>

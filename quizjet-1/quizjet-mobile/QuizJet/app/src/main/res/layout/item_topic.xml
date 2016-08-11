@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+    <View android:id="@+id/dotbutton"
+        android:layout_width="10dp"
+        android:layout_height="10dp"
+        android:background="@drawable/dot"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="25dp"
+        android:layout_alignParentLeft="true"
+        />
+        <TextView
+            android:id="@+id/topicname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/dotbutton"
+            android:padding="10dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="25dp"
+            android:text="Name" />
+
+    <View android:id="@+id/shownext"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:background="@drawable/showleft"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentRight="true"
+        ></View>
+
+    <View android:id="@+id/qtry"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/submit"
+        android:layout_marginLeft="35dp"
+        android:layout_below="@+id/topicname"
+        />
+    <TextView
+        android:id="@+id/qtryt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="45dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/qtry"
+        android:text="10" />
+
+    <View android:id="@+id/qtry2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/success"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/qtryt"
+        />
+    <TextView
+        android:id="@+id/qtry2t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/qtry2"
+        android:text="5" />
+
+    <View android:id="@+id/qtry3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/error"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="50dp"
+        android:layout_toRightOf="@+id/qtry2t"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"
+        android:layout_toRightOf="@+id/qtry3"
+        android:text="5" />
+
+
+</RelativeLayout>

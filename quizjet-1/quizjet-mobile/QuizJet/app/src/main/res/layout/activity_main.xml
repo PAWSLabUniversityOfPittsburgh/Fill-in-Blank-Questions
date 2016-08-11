@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="160dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="30dip"
+        android:padding="5dip"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/quizjetlogo"
+        android:id="@+id/quizlogo"/>
+
+    <RelativeLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/difficultyButtons"
+            android:layout_marginBottom="10dp" >
+
+
+
+
+
+
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dip"
+                android:padding="15dip"
+                android:background="@drawable/buttondif"
+                android:text="My Progress"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:onClick="showProgress"
+                android:id="@+id/megaHardButton"/>
+            <Button
+                android:layout_width="140dp"
+                android:layout_height="50dp"
+                android:layout_margin="10dip"
+                android:padding="15dip"
+                android:background="@drawable/buttondif"
+                android:text="Help"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:onClick="showHelp"
+                android:id="@+id/careerButton"/>
+
+        </LinearLayout>
+
+
+        </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/cadllMain"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:background="@drawable/dialogborder"
+android:gravity="center"
+android:orientation="vertical"
+tools:ignore="ButtonOrder"
+android:padding="1dp"
+    >
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Help"
+        android:textSize="20dp"
+        android:textColor="@color/DarkBlue"/>
+
+
+
+
+
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="3dp"
+    android:layout_marginRight="3dp"
+    android:background="@color/LightBlue" />
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:lines="2"
+    android:id="@+id/msg"
+    android:layout_marginLeft="0dp"
+    android:text="QuizJet - Java Evaluation Tool" />
+
+    <ImageView android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:id="@+id/msgimage"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:lines="2"
+        android:id="@+id/ins1"
+        android:layout_marginLeft="0dp"
+        android:text="1: Click Start to choose a topic and do the quiz" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:lines="2"
+        android:id="@+id/ins2"
+        android:layout_marginLeft="0dp"
+        android:text="2: Click My Progress to check your progress" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="5dp"
+        android:lines="2"
+        android:id="@+id/ins3"
+        android:layout_marginLeft="0dp"
+        android:text="3: If you have any problem using QuizJet, please \n contact us via email: hosseini.ec@gmail.com " />
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="80dp"
+    android:gravity="center_horizontal"
+    android:orientation="horizontal"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="20dp">
+
+
+
+    <Button
+        android:id="@+id/cadbtnCancel"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="Cancel"
+        android:visibility="invisible"/>
+
+
+    <Button
+        android:id="@+id/cadbtnOk"
+        android:layout_width="120dp"
+        android:layout_height="50dp"
+        android:layout_margin="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/button"
+        android:textColor="@color/white"
+        android:text="OK" />
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- the theme applied to the application or activity -->
+    <style name="CustomActionBarTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">#6495ED</item>
+        <item name="colorPrimaryDark">#4682B4</item>
+
+    </style>
+
+    <!-- ActionBar styles -->
+
+</resources>
