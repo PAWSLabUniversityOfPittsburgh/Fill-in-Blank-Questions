@@ -20,7 +20,7 @@
 <body>
 
 	<form id="loginf" name='loginForm' class="form-signin" action="<c:url value='/j_spring_security_check'/>" method='POST'>
-		<h2>Quizjet Authoring</h2>
+		<h4>Fill-in-Blank Java Authoring</h4>
 		<c:if test="${not empty error}">
 			<div class="alert alert-warning" role="alert">${error}</div>
 		</c:if>
