@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Quizpet - Sign In</title>
+	<title>Fill_in_Blank_Python_Authoring - Sign In</title>
 	<!-- Global Stylesheet -->
 	<link rel="stylesheet" href="${baseURL}/resources/css/global.css">
 	<!-- Latest compiled and minified CSS -->
@@ -20,7 +20,7 @@
 <body>
 
 	<form id="loginf" name='loginForm' class="form-signin" action="<c:url value='/j_spring_security_check'/>" method='POST'>
-		<h3>Fill_in_Blank_Java_Authoring</h3>
+		<h3>Fill_in_Blank_Python_Authoring</h3>
 		<c:if test="${not empty error}">
 			<div class="alert alert-warning" role="alert">${error}</div>
 		</c:if>
