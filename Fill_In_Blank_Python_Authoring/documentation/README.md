@@ -1,4 +1,4 @@
 #README
-The document is the same when you use Fill-in-Blank Java Authoring System
+Please refer to the _User Manual of Quizjet Authoring_ in Fill-in-Blank Authoring System
 
 
