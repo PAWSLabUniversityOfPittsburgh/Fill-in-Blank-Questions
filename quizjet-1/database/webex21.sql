@@ -274,6 +274,8 @@ CREATE TABLE `ent_jquiz` (
   `Privacy` int(10) unsigned NOT NULL,
   `rdfID` varchar(45) NOT NULL,
   `QuesType` int(10) unsigned NOT NULL,
+   `start` int(10) DEFAULT '2',
+  `end` int(10) DEFAULT '4',
   PRIMARY KEY (`QuizID`),
   KEY `FK_ent_jquiz_1` (`GroupID`),
   KEY `FK_ent_jquiz_2` (`AuthorID`),
