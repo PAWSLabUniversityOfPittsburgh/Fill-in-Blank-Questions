@@ -41,7 +41,7 @@ That is, in displayQuiz, making sure that you use Session to set attribute.
 request.getSession().setAttribute("usr", request.getParameter("usr"));
 request.getSession().setAttribute("grp", request.getParameter("grp"));
 request.getSession().setAttribute("sid", request.getParameter("sid"));
-String usr=(String) request.getSession().getAttribute("user");
+String usr=(String) request.getSession().getAttribute("usr");
 //String usr = getServletContext().getInitParameter("usr");
 ```
 

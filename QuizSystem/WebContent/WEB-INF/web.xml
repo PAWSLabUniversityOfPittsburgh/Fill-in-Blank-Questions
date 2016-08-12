@@ -15,8 +15,8 @@
   </context-param>
   <context-param>
     <param-name>appDir</param-name>
-    <param-value>/Users/chenqi/GitHub/QuizSystem/WebContent/</param-value> 
-    <!-- <param-value>/Users/Qi/Documents/workspace/QuizSystem/WebContent/</param-value> -->
+    <!-- <param-value>/Users/chenqi/GitHub/QuizSystem/WebContent/</param-value>  -->
+     <param-value>/Users/Qi/github/Fill-in-Blank-Questions/QuizSystem/WebContent/</param-value>
   </context-param>
   <context-param>
     <param-name>windows</param-name>

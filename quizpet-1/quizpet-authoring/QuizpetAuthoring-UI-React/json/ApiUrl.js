@@ -1,5 +1,5 @@
 
-var TEST_SERVER = "http://localhost:8080/quizpet";
+var TEST_SERVER = "http://localhost:8080/Fill_in_Blank_Java_Authoring";
 var PRODUCTION_SERVER = "http://columbus.exp.sis.pitt.edu/quizpet_authoring";
 var SERVER = TEST_SERVER;
 
